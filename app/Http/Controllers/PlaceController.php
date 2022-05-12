@@ -37,6 +37,7 @@ class PlaceController extends Controller
         return view('places.create', [
             'subDistricts' => SubDistrict::get()
         ]);
+       //baruuu bangettt
     }
 
     /**
